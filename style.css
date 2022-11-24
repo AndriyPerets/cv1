@@ -1,0 +1,106 @@
+:root {
+    --color1: #05b1b1;
+    --color2: #3870b1;
+}
+body{
+    font-family: Arial;
+    text-align: left;
+}
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+section{
+    padding: 10px 0;
+}
+.container {
+    width: 90%;
+    margin: 10px;
+}
+.about, .work, .skills, .own-skills {
+    background-color: #eee;
+}
+col {
+    justify-content: right;
+}
+h5{
+    color: grey;
+}
+.line {
+    width: auto;
+    height: 1px;
+    background-color: var(--color1);
+    margin: 0px auto 0px;
+}
+/*1колонка*/
+.mb-5{
+    color: var(--color1);
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+h2.mb-5{
+    width: 300px;
+    justify-content: center;
+    margin: 60px 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/*2колонка*/
+.about i {
+    font-size: 17px;
+    color: var(--color1);
+}
+table, .objective p{
+    font-style: italic;
+}
+td.icon{
+    padding: 0;
+}
+tr{
+    line-height: normal;
+}
+.icon{
+    font-size: xx-small;
+    text-align: left;
+}
+.text{
+    text-align: right;
+    color: var(--color2);
+}
+/*Objective*/
+.objective, .work, .education, .row-split-two--desc, .skills, .list-inline__value, .list-inline__title, .language, .own-skills{
+    padding: 15px;
+}
+.objective p{
+    color: var(--color2);
+}
+/*work*/
+.info-title{
+    color: var(--color2);
+    font-style: normal;
+}
+.info--city, .info--date, .info--extra{
+    font-size: 12px;
+}
+.row-split-two--desc{
+    font-weight: lighter;
+    font-style: normal;
+    color: var(--color2);
+    font-size: 15px;
+}
+/*Education*/
+.list-inline-item{
+    display: flex;
+}
+.list-inline__title{
+    color: var(--color2);
+    font-size: 15px;
+}
+.list-inline__value{
+    font-style: italic;
+    font-weight: lighter;
+}
+.simple-list__item{
+    color: var(--color2);
+}
+
